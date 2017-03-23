@@ -1,0 +1,7 @@
+注意：
+1、若使用org.eclipse.jdt.core建议去掉MANIFEST.MF中版本号，避免不兼容问题；
+2、MANIFEST.MF中Bundle-RequiredExecutionEnvironment应与编辑器中使用的javaSE版本相符；
+
+生成插件步骤：
+Export->Plug-in Development->Deployable plug-ins and fragments
+在Destination中选择Archive file然后完成

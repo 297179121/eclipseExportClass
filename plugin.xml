@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         point="org.eclipse.ui.popupMenus">
+      <objectContribution
+            objectClass="org.eclipse.core.runtime.IAdaptable"
+            id="org.eclipse.gesoft.sendClass.contribution1">
+         <action
+               label="生成已编译文件到桌面"
+               class="actions.SendClassAction"
+               menubarPath="additions"
+               enablesFor="*"
+               icon="icon/desktop.ico"
+               id="org.eclipse.gesoft.sendClass.newAction">
+         </action>
+      </objectContribution>
+   </extension>
+
+</plugin>
